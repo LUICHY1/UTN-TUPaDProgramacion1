@@ -1,1 +1,67 @@
 # UTN-TUPaDProgramacion1
+# Actividad 1
+print ("Hola mundo!")
+
+#Actividad 2
+nombre = input("nombre: ")
+print (f"Hola {nombre}!")
+
+#Actividad 3
+nombre = input ("nombre: ")
+apellido= input ("apellido: ")
+edad = input ("edad: ")
+pais = input ("pais: ")
+print (f"Soy {nombre} {apellido},tengo {edad} años y vivo en {pais}")
+
+#Actividad 4
+pi = 3.1416
+radio = float(input("Ingrese el radio del círculo: "))
+area = pi * radio ** 2
+perimetro = 2 * pi * radio
+print (f"El área del círculo es: {area:.2f}")
+print (f"El perímetro del círculo es: {perimetro:.2f}")
+
+#Actividad 5
+segundos = int(input("Ingrese la cantidad de segundos: "))
+horas = segundos / 3600
+print(f"{segundos} segundos equivalen a {horas:.2f} horas.")
+
+#Actividad 6
+numero = int(input("Ingrese un número: "))
+print (f"Tabla de multiplicar del {numero}:")
+for i in range (1, 11):
+    resultado = numero * i
+    print (f"{numero} x {i} = {resultado}")
+
+#Actividad 7
+num1 = int(input("Ingrese el primer número (distinto de 0): "))
+num2 = int(input("Ingrese el segundo número (distinto de 0): "))
+if num1 != 0 and num2 != 0:
+    suma = num1 + num2
+    resta = num1 - num2
+    multiplicación = num1 * num2
+    división = num1 // num2
+    print (f"suma: {suma}")
+    print (f"Resta: {resta}")
+    print (f"Multiplicación: {multiplicación}")
+    print (f"División: {división}")
+else:
+    print ("Error: ambos números deben ser distintos de 0.")
+
+#Actividad 8
+peso = float(input("Ingrese su peso en kilogramos (kg): "))
+altura = float(input("Ingrese su altura en metros (m): "))
+imc = peso / (altura ** 2)
+print (f"Su índice de masa corporal (IMC) es: {imc:.2f}")
+
+#Actividad 9
+celsius = float(input("Ingrese la temperatura en grados celsius: "))
+fahrnheit = (9 / 5) * celsius + 32
+print (f"La temperatura en grados Fahrenheit es : {fahrnheit:.2f}")
+
+#Actividad 10
+num1 = float(input("Ingrese el primer número: "))
+num2 = float(input("Ingrese el segundo número: "))
+num3 = float(input("Ingrese el tercer número: "))
+promedio = (num1 + num2 + num3) / 3
+print(f"El promedio de los tres números es: {promedio:.2f}")
